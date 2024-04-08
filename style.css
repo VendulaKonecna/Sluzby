@@ -9,6 +9,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     color: #8B8B8B;
+    background-color: #FAFAFA;
 }
 .container {
     margin: 60px auto 0 auto;
@@ -50,4 +51,22 @@ h1 {
     font-size: 1em;
     color: black;
     margin-bottom: 15px;
+}
+.nabidka {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 4px #e9e9e9;
+}
+.nabidka:nth-child(3n) {
+    margin-bottom: 60px;
+}
+.nabidka-ikona {
+    padding-right: 30px;
+}
+.nabidka p {
+    font-size: 13px;
 }
